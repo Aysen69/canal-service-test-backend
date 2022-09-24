@@ -1,0 +1,7 @@
+main = "./src/index.ts"
+name = "canal-service-test-backend"
+kv_namespaces = [
+  { binding = "CANAL_SERVICE_API_KV", id = "90d078a39d1545b88cd182d94eb7dd3a", preview_id = "90d078a39d1545b88cd182d94eb7dd3a" }
+]
+compatibility_date = "2022-07-26"
+send_metrics = false
