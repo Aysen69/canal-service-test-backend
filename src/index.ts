@@ -34,7 +34,7 @@ router.post('/v1/login', async (request: Request) => {
     })
   } catch (error) {
     console.error(error)
-    return new Response(JSON.stringify({ ok: false, error: error instanceof Error ? error.message : String(error) }), {
+    return new Response(JSON.stringify({ ok: false, message: error instanceof Error ? error.message : String(error) }), {
       headers: {
         'content-type': 'application/json;charset=UTF-8',
       }
